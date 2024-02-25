@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+nav{
+    background-color: #005BBB;
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.name{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.bus-icon{
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.title{
+    font-size: 24px;
+    padding: 20px;
+    margin-left: 40px;
+    
+}
+
+.nav-list{
+   margin: 10px;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+li{
+    list-style: none;
+    padding: 30px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+a{
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:visited { 
+    text-decoration: none; 
+    color: white;
+}
+
+a:hover{
+    scale: 1.1px;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.display-card{
+    background-color: #005BBB;
+    width: 600px;
+    height: 300px;
+    padding: 20px;
+    margin: 40px;
+    color: white;
+    border-radius: 20px;  
+    text-align: center;
+    position: relative;
+    box-shadow: 8px 8px;
+}
+
+.card-title{
+    font-size: 26px;
+    padding: 10px;
+    margin-top: 25px;
+}
+
+.bus-time{
+    margin: 20px 20px 5px 20px;
+    font-size: 30px;
+}
+
+.stop{
+    padding: 5px;
+}
+
+.filter-card{
+    background-color: ghostwhite;
+    border-radius: 20px;
+    width: 500px;
+    position: absolute;
+    top: 450px;
+    border: black;
+    box-shadow: 4px 4px;
+}
+
+
+/* #bus {
+    bottom: 15%;
+    position: absolute;
+    -webkit-animation: linear infinite;
+    -webkit-animation-name: run;
+    -webkit-animation-duration: 30s;
+  }
+  @-webkit-keyframes run {
+    0% {
+      left: 0;
+    }
+    48% {
+      -webkit-transform: rotateY(0deg); 
+    }
+    50% { 
+      left: calc(100% - 100px);
+      -webkit-transform: rotateY(180deg); 
+    }
+    98% {
+      -webkit-transform: rotateY(180deg); 
+    }
+    100% {
+      left: 0;    
+       -webkit-transform: rotateY(0deg);
+    }
+  } */

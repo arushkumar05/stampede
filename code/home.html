@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Stampede timing</title>
+    <link rel="icon" type="image/x-icon" href="Web/icons8-bus-ios-17-filled-16.png">
+</head>
+<body>
+    <main>
+        <nav>
+            <div class="navbar">
+                <div class="name">
+                    <h4 class="title">UBStampede</h4>
+                    <img class="bus-icon" src="Web/icons8-bus-ios-17-filled-96.png" alt="bus icon">
+                </div>
+                <div class="nav-list">
+                    <ul>
+                        <li><a href="">Schedule</a></li>
+                        <li><a href="">Map</a></li>
+                        <li><a href="">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section>
+              <div class="display-card">
+                    <h3 class="card-title">Next bus leaving</h3>
+                    <p class="bus-time" id="bus-time"></p>
+                    <p class="stop">from Goodyear</p>
+                    <p class="time">Departing in 7 mins</p>
+              </div>
+              <div class="filter-card">
+                <ul>
+                    <li>
+                        <label for="bus-stop">Stop:</label>
+                        <select name="bus-stop" id="bus-stop">
+                            <option value="goodyear">Goodyear</option>
+                            <option value="maincircle">Main circle</option>
+                            <option value="flintloop">Flintloop</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label for="user-time">Time:</label>
+                        <select name="user-time" id="user-time">
+                            <option value="1">Current time</option>
+                            <option value="2">13:00</option>
+                            <option value="3">14:00</option>
+                            <option value="4">15:00</option>
+                        </select>
+                    </li>
+                </ul>
+              </div>
+        </section>
+        <!-- <div id="bus">
+            <img src="Web/icons8-bus-ios-17-filled-96.png" width=50px height=50px>
+        </div> -->
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
